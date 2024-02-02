@@ -1,0 +1,215 @@
+<style>
+/*Dampha Kunda United Home page style sheet*/
+*{box-sizing:border-box;}
+
+.header {
+grid-area:header;
+padding:10px 12px;
+font-style: sans serif;
+text-shadow: 2px 3px blue;
+text-align:center;
+background-image:linear-gradient(to right, red,yellow,green);
+}
+
+.grid-container{
+display:grid;
+grid-template-areas:
+'header header header header header header'
+'left left middle middle right right'
+'footer footer footer footer footer footer';
+}
+
+.left,
+.middle,
+.right {
+padding:10px;
+height:800px;
+
+}
+.left {
+grid-area:left;
+}
+ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+ li a {
+text-decoration:none;
+display:block
+text-align:center;
+padding:10px;
+color:#c5923a;
+font-size:20px;
+margin-top:6px;
+}
+li a:hover{
+background-color:#8f6a2a;
+color:white;
+}
+.middle{
+grid-area:middle;
+color:#030709;
+overflow:scroll;
+}
+.right{
+grid-area:right;
+color:#030709;
+overflow:scroll;
+}
+.btn{
+background-color:#df9920;
+padding:5px;
+font-size:15px;
+border-radius:10px;
+cursor:pointer;
+}
+h1{
+font-weight:bold;
+font-size:30px;
+text-align:center;
+}
+
+
+
+
+
+
+.footer {
+grid-area:footer;
+padding:10px;
+font-style: sans serif;
+text-shadow: 2px 3px blue;
+text-align:center;
+background-image:linear-gradient(to right, red,yellow,green);
+}
+
+@media  (max-width:600px){
+'header header header header header header'
+'left left left left left left'
+'middle middle middle middle middle middle'
+'right right right right right right'
+'footer footer footer footer footer footer'
+}
+</style>
+
+
+
+
+
+
+<style>
+/*Dampha Kunda United About Us page style sheet*/
+*{box-sizzing:border-box;}
+img{
+width:100%;
+height:auto;
+}
+.sidenav{
+overflow-x:hidden;
+background-image:linear-gradient(30deg,#c5a93a,#e81760,#e8ce17,#27d8cb);
+z-index:1;
+margin-left:0;
+width:200px;
+height:100%;
+position:fixed;
+}
+.sidenav a{
+text-decoration:none;
+color:#ed1216;
+display:block;
+background-color:#b5de21;
+text-align:center;
+font-size:30px;
+border:1px solid #151206;
+border-radius:50px;
+}
+.content{
+background-image:linear-gradient(30deg,red,yellow,green);
+padding:6px 8px;
+margin-left:200px;
+position:fixed;
+height:100%;
+
+}
+
+.container{
+position:relative;
+font-family:arial;
+}
+.text-block{
+position:absolute;
+top:450px;
+bottom:0px;
+right:0px;
+left:550px;
+background-color:rgba(0,0,0,0.3);
+color:white;
+text-align:center;
+padding:6px;
+}
+.sidenav a:hover{
+background-color:#86797c;
+}
+
+@media only screen and(max-width:500px){
+.sidenav > .content{
+width:100%;
+}
+}
+</style>
+
+
+<style>
+/*Dampha Kunda United Our Objective page style sheet*/
+
+img{
+width:100%;
+height:auto;
+}
+
+*{box-sizzing:border-box;}
+.topnav{
+background-color:#a97b56;
+overflow:hidden;}
+.topnav a{
+float:left;
+background-color:#e9ae16;
+text-decoration:none;
+text-align:center;
+border:2px solid green;
+padding:14px 16px;
+border-radius:50px;
+}
+.content{
+background-image:linear-gradient(45deg,#c3eb14,#d4cd2b,#41bdbe,#f30c87);
+background-repeat:no-repeat;
+overflow:scroll;
+height:600px;
+margin-left:0px;
+}
+.topnav a:hover{
+background-color:#6a7e95;
+}
+.content p{font-size:20px;}
+.footer{
+background-color:#6c9371;
+color:#e21d95;
+text-align:center;
+padding:30px;
+}
+
+
+
+
+@media only screen (max-width:600px){
+column{
+width:100%;
+}
+
+
+</style>
+
+
+
+
